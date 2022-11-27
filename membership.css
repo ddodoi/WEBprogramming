@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#mainLogo {
+    width: 81px;
+    height: 56px;
+}
+
+div h1 {
+    font-weight: normal;
+}
+
+div p {
+    display: block;
+    font: normal normal 20px Inter;
+}
+
+.small {
+    padding: 5px;
+}
+
+#first {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+
+#second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-collapse: collapse;
+}
+
+tbody {
+    display: flex
+}
+
+/*table의 행과 열을 바꾸기 위해*/
+
+
+#noBorder {
+    height: 140px;
+    border: none;
+}
+
+tbody td {
+    text-align: center;
+}
+
+td, thead th {
+    border-bottom: 1px solid gray;
+}
+
+thead th {
+    font: normal bold 15px Inter;
+    height: 40px;
+}
+
+th, td {
+    color: #767676;
+    display: block;
+    height: 40px;
+    padding: 10px;
+}
+
+tbody th {
+    font: normal normal 20px Inter;
+    color: white;
+    background-color: #EF6B72;
+    text-align: center;
+    padding: 40px;
+    margin-right: 10px;
+    width: 80px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+

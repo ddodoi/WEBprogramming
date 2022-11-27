@@ -3,27 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link type="text/css" rel="stylesheet" href="loginForm.css">
 </head>
 <body>
-    <header>
-        <img id="mainLogo" src="./resource/pngwing.png" alt="NETFLIX logo"/><a href="_self"></a>
-    </header>
-    <section>
-        <div>로그인</div>
+<header>
+    <img id="mainLogo" src="./resource/pngwing.png" alt="NETFLIX logo"/>
+</header>
+
+<section>
+    <div id="center">
+        <div id="name">로그인</div>
         <hr>
         <form>
             <div>
-            <label class="box"><span>아이디</span> <input type="email" placeholder="이메일"></label><br>
-            <label class="box"><span>비밀 번호</span><input type="password" placeholder="비밀 번호"></label><br>
+                <label class="box"><span>아이디</span> <input type="email" placeholder="이메일"></label><br>
+                <label class="box" style="margin-bottom: 10px;"><span id="one">비밀 번호</span><input type="password" placeholder="비밀 번호"></label>
 
-            <input type="checkbox"><span id="checkbox">로그인 정보 저장</span> <br>
+                <label style="margin-left:170px;"><input type="checkbox"><span id="checkbox">로그인 정보 저장</span></label>
 
-            <button type="submit">로그인</button>
-        </div>
+                <label><span></span>
+                    <button type="submit">로그인</button>
+                </label>
+
+            </div>
         </form>
-    </section>
-    
+    </div>
+</section>
+
 </body>
 </html>

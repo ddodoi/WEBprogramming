@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #141414;
+}
+
+#mainLogo {
+    width: 81px;
+    height: 56px;
+}
+
+div {
+    font: normal bold 48px Inter;
+}
+
+#center {
+    display: block;
+    position: absolute;
+    transform: translate(-50%, 0);
+    left: 50%;
+    top: 150px;
+    width:1200px;
+}
+
+hr {
+    border: 1px solid #DFDFDF;
+    margin-bottom: 10px;
+}
+
+div {
+    color: white;
+}
+
+#info {
+    display: inline-block;
+    font: normal normal 36px Inter;
+}
+
+iframe {
+    display: inline-block;
+    width: 536px;
+    height: 449px;
+    margin-top:30px;
+    margin-right: 30px;
+}
