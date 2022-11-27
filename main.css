@@ -1,0 +1,15 @@
+*{padding:0px; margin:0px;}
+body{background-color:#141414;}
+#mainLogo{width:81px; height:56px;}
+
+/*nav css*/
+nav{position:fixed;}
+nav li{width:201px; height:50px; text-align:center;}
+.haveborder1{border-left:2px solid #998D8D;
+            border-right:2px solid #998D8D;}
+.haveborder2{border-right:2px solid #998D8D;}
+nav ul li{display:inline-block; font:normal bold 20px Inter;}
+nav ul li a{text-decoration:none; color:white;}
+.line:hover{text-decoration:underline;}
+nav button{background-color: #E50914; width:145.55px; height:48px;
+border-radius:13px; font:normal bold 20px Inter;}
