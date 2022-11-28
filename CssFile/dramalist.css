@@ -2,7 +2,11 @@
     padding: 0px;
     margin: 0px;
 }
-header{margin-top:20px;}
+
+header {
+    margin: 20px 20px;
+}
+
 #mainLogo {
     width: 81px;
     height: 56px;
@@ -11,4 +15,48 @@ header{margin-top:20px;}
 
 body {
     background-color: #141414;
+    background-repeat: no-repeat;
+    color: white;
 }
+
+hr {
+    width: 1400px;
+}
+
+span {
+    font: normal bold 66px Inter;
+    color: white;
+}
+
+#background {
+    background-image: url("../resource/watchnetflix.png");
+    background-size: 1650px 600px;
+    height: 600px;
+    font: normal bold 36px Inter;
+    color: #B3B3B3;
+}
+
+section img {
+    width: 302px;
+    height: 180px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 300px 300px 300px;
+}
+
+.item {
+    text-align: center;
+}
+
+#list {
+    font: normal bold 25px Inter;
+}
+
+#center {
+    margin-left: 55px;
+}
+
+

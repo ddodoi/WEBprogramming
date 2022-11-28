@@ -14,7 +14,9 @@ body {
     height: 56px;
 }
 
-header{margin-top:20px;}
+header {
+    margin-top: 20px;
+}
 
 header {
     margin-top: 20px;
@@ -82,8 +84,21 @@ article > div {
 }
 
 
+.leftImg, .rightImg {
+    margin: 400px 400px;
+}
 
-.leftImg,.rightImg{margin:400px 400px;}
-section img{width:800px; height:500px;}
-.leftImg{text-align:left;}
+section img {
+    width: 800px;
+    height: 500px;
+}
 
+.leftImg {
+    text-align: left;
+}
+
+footer{font:normal normal 20px Inter;
+    color:#A0A0A0;
+}
+
+footer>div{bottom:0;}
