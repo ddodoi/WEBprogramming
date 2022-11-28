@@ -78,3 +78,8 @@ article > div {
     display: block;
     text-align: center;
 }
+
+
+
+.leftImg,.rightImg{margin:400px 400px;}
+
