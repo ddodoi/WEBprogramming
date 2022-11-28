@@ -1,0 +1,24 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+}
+
+#mainLogo {
+    width: 81px;
+    height: 56px;
+}
+
+header{margin-top:20px;}
+
+div{text-align:left;margin-left:350px;}
+
+span{font:bold normal 42px Inter; text-align: left}
+
+hr{border:1px solid #767676;width:800px;}
+
+iframe{width:800px; height:524px; margin-bottom:100px;}
