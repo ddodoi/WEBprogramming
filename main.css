@@ -1,11 +1,12 @@
 * {
+    height: 100%;
     padding: 0px;
     margin: 0px;
 }
 
 body {
     background-color: #141414;
-    color:white;
+    color: white;
 }
 
 #mainLogo {
@@ -13,16 +14,22 @@ body {
     height: 56px;
 }
 
+header {
+    margin-top: 20px;
+    width: 100%;
+    height: 15%;
+    position: relative
+}
 
 /*nav css*/
+
 nav {
-    position: fixed;
-    width:100%
+    width: 100%
 }
 
 nav li {
     width: 201px;
-    height: 50px;
+    height: 40px;
     text-align: center;
 }
 
@@ -57,3 +64,17 @@ nav button {
     font: normal bold 20px Inter;
 }
 
+#logo {
+    height: 15%
+}
+
+#top_menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+article > div {
+    display: block;
+    text-align: center;
+}
