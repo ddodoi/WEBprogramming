@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
+
 * {
     height: 100%;
     padding: 0px;
@@ -78,27 +83,53 @@ nav button {
     right: 10px;
 }
 
-article > div {
-    display: block;
+.container {
     text-align: center;
 }
 
-
-.leftImg, .rightImg {
-    margin: 400px 400px;
-}
-
 section img {
-    width: 800px;
-    height: 500px;
+    display: inline-block;
+    width: 950px;
+    height: 600px;
+    margin-top: 300px;
 }
 
-.leftImg {
+label div {
+    display: inline-block;
+    height:300px;
+    padding: 0px 50px 0px 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.left {
     text-align: left;
 }
 
-footer{font:normal normal 20px Inter;
-    color:#A0A0A0;
+.right {
+    text-align: right;
 }
 
-footer>div{bottom:0;}
+#txt1 {
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 64px;
+}
+
+#txt2 {
+    font-family: 'Exo', sans-serif;
+    font-size: 48px;
+}
+
+#txt3 {
+    font-family: 'IM Fell English', serif;
+    font-size: 64px;
+}
+
+#txt4 {
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 96px;
+}
+
+
+
+
