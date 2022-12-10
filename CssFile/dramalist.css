@@ -59,4 +59,11 @@ section img {
     margin-left: 55px;
 }
 
+.item > img {
+    -webkit-transition: transform .45s;
+}
+
+.item > img:hover {
+    -webkit-transform: scale(1.1);
+}
 

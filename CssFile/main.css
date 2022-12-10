@@ -96,7 +96,7 @@ section img {
 
 label div {
     display: inline-block;
-    height:300px;
+    height: 300px;
     padding: 0px 50px 0px 50px;
     text-decoration: none;
     color: white;
@@ -113,6 +113,7 @@ label div {
 #txt1 {
     font-family: 'Glass Antiqua', cursive;
     font-size: 64px;
+    writing-mode: vertical-rl;
 }
 
 #txt2 {
@@ -129,6 +130,16 @@ label div {
     font-family: 'IM Fell French Canon', serif;
     font-size: 96px;
 }
+
+section a {
+    text-decoration: none;
+}
+
+.item {
+    width: 1300px;
+    height: 1000px;
+}
+
 
 
 

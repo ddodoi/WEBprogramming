@@ -6,11 +6,25 @@
     <title>로그인</title>
     <link type="text/css" rel="stylesheet" href="../CssFile/loginForm.css">
     <link rel="icon" href="../resource/pngwing.png">
+    <script>
+        let userinfo=document.getElementById("user");
+        function loginEvent(){
+            let user_name=0;
+            let i=0;
+            while(true){
+                if (userinfo[i]=="@"){
+                    break;
+                }
+                user_name+=userinfo[i];
+                i++;
+            }
+            alert("환영합니다! "+user_name+"님!");
+        }
+    </script>
 </head>
 <body>
 <header>
     <a href="main.html"><img id="mainLogo" src="../resource/pngwing.png" alt="NETFLIX logo"/></a>
-
 </header>
 
 <section>
@@ -19,13 +33,13 @@
         <hr>
         <form>
             <div>
-                <label class="box"><span>아이디</span> <input type="email" placeholder="이메일"></label><br>
-                <label class="box" style="margin-bottom: 10px;"><span id="one">비밀 번호</span><input type="password" placeholder="비밀 번호"></label>
+                <label class="box"><span>아이디</span> <input type="email" id="user" placeholder="이메일" ></label><br>
+                <label class="box" style="margin-bottom: 10px;"><span id="one">비밀 번호</span><input type="password" placeholder="비밀 번호" autocomplete="on"></label>
 
                 <label style="margin-left:170px;"><input type="checkbox"><span id="checkbox">로그인 정보 저장</span></label>
 
                 <label><span></span>
-                    <button type="submit"><a href="main.html">로그인</a></button>
+                    <button type="submit" onclick="loginEvent()" ><a href="main.html">로그인</a></button>
                 </label>
 
             </div>
