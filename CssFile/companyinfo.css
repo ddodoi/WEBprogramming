@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -13,7 +15,7 @@ body {
 }
 
 div {
-    font: normal bold 48px Inter;
+    font: normal bold 48px 'Inter', sans-serif;
 }
 
 #center {
@@ -36,7 +38,7 @@ div {
 
 #info {
     display: inline-block;
-    font: normal normal 36px Inter;
+    font: normal normal 36px 'Inter', sans-serif;
 }
 
 iframe {

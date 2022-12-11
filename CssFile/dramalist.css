@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -24,7 +26,7 @@ hr {
 }
 
 span {
-    font: normal bold 66px Inter;
+    font: normal bold 66px 'Inter', sans-serif;
     color: white;
 }
 
@@ -32,7 +34,7 @@ span {
     background-image: url("../resource/watchnetflix.png");
     background-size: 1650px 600px;
     height: 600px;
-    font: normal bold 36px Inter;
+    font: normal bold 36px 'Inter', sans-serif;
     color: #B3B3B3;
 }
 
@@ -52,7 +54,7 @@ section img {
 }
 
 #list {
-    font: normal bold 25px Inter;
+    font: normal bold 25px 'Inter', sans-serif;
 }
 
 #center {

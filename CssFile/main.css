@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
 * {
     height: 100%;
@@ -53,7 +54,7 @@ nav li {
 
 nav ul li {
     display: inline-block;
-    font: normal bold 20px Inter;
+    font:normal normal 20px 'Inter', sans-serif;
 }
 
 nav ul li a {
@@ -70,7 +71,7 @@ nav button {
     width: 145.55px;
     height: 48px;
     border-radius: 13px;
-    font: normal bold 20px Inter;
+    font:normal normal 20px 'Inter', sans-serif;
 }
 
 #logo {
@@ -107,7 +108,8 @@ label div {
 }
 
 .right {
-    text-align: right;
+    position: absolute;
+    right: 70px;
 }
 
 #txt1 {
@@ -117,8 +119,11 @@ label div {
 }
 
 #txt2 {
+    position: absolute;
     font-family: 'Exo', sans-serif;
     font-size: 48px;
+    top: 2450px;
+    left: 250px;
 }
 
 #txt3 {
@@ -127,8 +132,11 @@ label div {
 }
 
 #txt4 {
+    position: absolute;
     font-family: 'IM Fell French Canon', serif;
     font-size: 96px;
+    top: 4450px;
+    left: 250px;
 }
 
 section a {

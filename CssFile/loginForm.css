@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
 }
-header{margin-top:20px;}
+
+header {
+    margin-top: 20px;
+}
+
 body {
     background-color: #141414;
 }
@@ -42,12 +48,12 @@ section {
 
 section > div {
     color: white;
-    font: normal bold 48px Inter;
+    font: normal bold 48px 'Inter', sans-serif;
 }
 
 section label {
     color: white;
-    font: normal bold 27px Inter;
+    font: normal bold 27px 'Inter', sans-serif;
 }
 
 input[type=email] {
@@ -55,7 +61,7 @@ input[type=email] {
     width: 400px;
     height: 74px;
     border-radius: 10px;
-    font: normal bold 30px Inter;
+    font: normal bold 30px 'Inter', sans-serif;
 }
 
 input[type=password] {
@@ -69,19 +75,19 @@ input[type=password] {
 input[type=email]:focus {
     border: none;
     background-color: #d8d8d8;
-    font: normal bold 30px Inter;
+    font: normal bold 30px 'Inter', sans-serif;
 }
 
 input[type=password]:focus {
     border: none;
     background-color: #d8d8d8;
-    font: normal bold 30px Inter;
+    font: normal bold 30px 'Inter', sans-serif;
 }
 
 input::placeholder {
     padding-left: 40px;
     color: #B3B3B3;
-    font: normal bold 24px Inter;
+    font: normal bold 24px 'Inter', sans-serif;
 }
 
 #one {
@@ -91,7 +97,7 @@ input::placeholder {
 
 #checkbox {
     color: white;
-    font: normal 20px Inter;
+    font: normal 20px 'Inter', sans-serif;
     width: 200px;
     margin-bottom: 20px;
 }
@@ -112,7 +118,7 @@ section button {
     height: 78px;
     border-radius: 10px;
     color: white;
-    font: normal 36px Inter;
+    font: normal 36px 'Inter', sans-serif;
 }
 
 a {

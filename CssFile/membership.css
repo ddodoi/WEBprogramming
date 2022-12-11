@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -14,7 +16,7 @@ div h1 {
 
 div p {
     display: block;
-    font: normal normal 20px Inter;
+    font: normal normal 20px 'Inter', sans-serif;
 }
 
 .small {
@@ -65,8 +67,8 @@ td, thead th {
 }
 
 thead th {
-    font: normal bold 15px Inter;
     height: 40px;
+    font:normal bold 15px 'Inter', sans-serif;
 }
 
 th, td {
@@ -77,7 +79,7 @@ th, td {
 }
 
 tbody th {
-    font: normal normal 20px Inter;
+    font:normal normal 20px 'Inter', sans-serif;
     color: white;
     background-color: #EF6B72;
     text-align: center;
