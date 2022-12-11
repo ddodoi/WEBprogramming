@@ -1,8 +1,8 @@
-let userinfo = document.getElementById("user");
-
+let userinfo;
 function loginEvent() {
-    let user_name = 0;
+    let user_name="";
     let i = 0;
+    userinfo=document.getElementById("user").value;
     while (true) {
         if (userinfo[i] == "@") {
             break;
@@ -10,7 +10,7 @@ function loginEvent() {
         user_name += userinfo[i];
         i++;
     }
-    alert("환영합니다! " + user_name + "님!");
+    alert(user_name+"님, 환영합니다!");
 }
 
 
